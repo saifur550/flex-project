@@ -1,0 +1,360 @@
+/* ========================== 
+        google fonts 
+============================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+       Root variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:400;
+    --fontLight:300;
+    
+
+    /* ---color variable---- */
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+html{
+    font-family: 62.5%;
+}
+
+
+body{
+    font-family:var(--mainFont);
+    background-color:#F8F5F1;
+}
+
+
+.clr-2nd-text{
+    color:#EB5E0B ;
+    
+}
+
+
+.clr-2nd-bg{
+     background-color: #EB5E0B;
+}
+
+.clr-3nd-text{
+   
+     color:#EC4646 ; 
+}
+
+
+.clr-3nd-bg{
+     background-color:#EC4646 ;
+}
+
+
+
+.clr-4nd-text{
+     color:#008891 ;
+    
+}
+
+
+.clr-4nd-bg{
+     background-color:#008891 ;
+}
+
+
+/* ========================== 
+     ---- section style
+============================ */
+.top-header{
+     padding: 4rem;
+     background-color: #0A1931;
+     text-align: center;
+}
+
+
+header {
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .calender img{
+     width: 50px;
+}
+
+header .flex{
+     display: flex;
+     flex-direction: column;
+}
+
+
+header .planing{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     text-transform: capitalize;
+     margin-bottom: 2rem;
+}
+
+
+header .plan-details h3{
+     font-size: 1.3rem;
+     margin-left: 1rem;
+     text-align: justify;
+}
+
+.hero-text h2{
+     font-size: 4rem;
+     color: #fff;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+
+.hero-text {
+	margin: 3rem 0rem;
+}
+
+
+
+/* ========================== 
+ services section style
+============================ */
+
+.services-section{
+     background-color: #fff;
+     padding: 4rem;
+}
+.services-section .heading {
+	background-color: #DDDDDD;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 2rem;
+	text-transform: capitalize;
+	border-radius: .5rem;
+	margin-bottom: 2rem;
+  
+}
+
+.services-part{
+     display: grid;
+     grid-template-columns:repeat(4,1fr );
+     text-align: center;
+     grid: 1rem;
+}
+
+.services-section .services-item{
+     padding: 1rem;
+     margin: 1rem;
+     border: 1px solid;
+     border-radius: .5rem;
+}
+
+
+
+
+.services-section .services-item img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     padding: 1rem;
+     
+}
+.services-section .services-item h3{
+    font-size: 1rem;
+    padding: .5rem 0;
+    font-weight: 300;
+    text-transform: capitalize;
+     
+}
+
+.services-section .services-item h3::first-letter{
+     font-weight: bold;
+}
+
+.services-section .services-item .clr-1{
+   background-color:#3602d1;
+   
+     
+}
+.services-section .services-item .clr-2{
+   background-color:#EB5E0B ;
+     
+}
+.services-section .services-item .clr-3{
+   background-color:#EC4646 ;
+     
+}
+.services-section .services-item .clr-4{
+   background-color:#008891 ;
+     
+}
+
+.clr-01 {
+	color: #3602d1;
+}
+.clr-02 {
+	color:#EB5E0B ;
+}
+.clr-03 {
+	color:#EC4646 ;
+}
+.clr-04 {
+	color:#008891 ;
+}
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+.strengths__section{
+     color: #3602d1;
+     padding: 4rem;
+}
+
+.strengths-container .part-1{
+     display: flex;
+     align-items: center;
+     margin-bottom: 1rem;
+
+}
+.strengths-container .part-1 .title{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 2rem;
+
+}
+.strengths-container .part-1 .line{
+    display: block;
+    width: 70%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #3602d1; 
+    border-radius: 10px;
+
+
+    
+}
+
+.strengths__section .strengths-container .part-2{
+     display: flex;
+     color: #fff;
+     padding: .5rem;
+     margin-bottom: 2rem;
+
+}
+
+.strengths__section .strengths-container .part-2 img{
+   
+    margin-right: 2rem;
+    background-color: #3602d1; 
+    border-radius: .5rem;
+    width: 100px;
+    height: 100px;
+    padding: 1.3rem;
+
+}
+
+
+.strengths__section .strengths-container .part-2 h4 {
+	background-color: #3602d1;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+     border-radius: .5rem;
+}
+
+
+
+.part-3 {
+     display: flex;
+     justify-content: space-evenly;
+   }
+
+   .part-3-1 ul, .part-3-2 ul {
+     display: inline;
+     text-transform: capitalize;
+   }
+   .part-3-1 li,  .part-3-2 li  {
+	list-style: circle;
+}
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
+
+
+
+
+/* ========================== 
+     ---- section style
+============================ */
